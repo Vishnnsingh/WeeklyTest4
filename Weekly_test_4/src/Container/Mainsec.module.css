@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bttn {
+  /* border: 2px solid red; */
+
+  padding: 15px;
+  width: 200px;
+  background-color: #337ed4;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.bttn:hover {
+  background-color: white;
+  border: 2px solid #337ed4;
+  color: #337ed4;
+  cursor: pointer;
+}
+
+.bttncontainer {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: left;
+  margin: 50px 50px 20px 50px;
+}
+
+.container {
+  border: 1px solid rgba(49, 46, 46, 0.964);
+  /* margin: top right bottom left; */
+
+  margin: 10px 50px 20px 50px;
+  height: 30rem;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+}
+.bttn2 {
+  width: 18rem;
+  height: 3rem;
+  background-color: white;
+  border: 1px solid rgba(49, 46, 46, 0.964);
+  border-top: 0px;
+  border-left: 0px;
+}
+
+.tablecontainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 30px 0px 0px 60px;
+  
+}
+.tableheader {
+  background-color: #337ed4;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  font-weight: bold;
+  border-right: 1px solid #fff;
+}
+
+.bttn3{
+    background-color: #337ed4;
+    color: white;
+
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.container2{
+    justify-content: end;
+    display: flex;
+    position: fixed;
+   
+    right: 50px;
+    
+    align-items: flex-end;
+    padding-top: 20.5%;
+    padding-right: 15px;
+
+}
